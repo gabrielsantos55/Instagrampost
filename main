@@ -29,7 +29,7 @@ post_image = WebDriverWait(browser, 10).until(EC.presence_of_element_located((By
 post_image.click()
 sleep(1)
 
-escrita = '/home/gabriel/Documents/Python/SurfCheckVix/Screenshots/postpng/c1.png'
+escrita = ''
 pyautogui.typewrite(escrita, interval=0.08)
 pyautogui.press('enter')
 print('press enter')
