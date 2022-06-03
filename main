@@ -4,8 +4,8 @@ browser.get(url)
 
 sleep(1)
 
-username = 'SurfCheckVix'
-password = '123456senha'
+username = ''
+password = ''
 
 #login
 find_username = browser.find_element(by=By.NAME, value='username')
